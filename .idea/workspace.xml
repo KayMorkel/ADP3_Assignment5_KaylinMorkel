@@ -1,87 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af8fcd08-8cbd-45af-bdb6-70e179d1a7c7" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/BaptismClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/BibleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/BoatBoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Church.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/ConfirmationClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/DeceasedGoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/FrailGoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/IncomingMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/LayMinister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/MarriedGoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/ServiceSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/SidesPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/StandardGoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/SundaySchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/UsageOfMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/YearEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/BaptismClassFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/BibleClassFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/BoatBoyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/ChurchFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/ConfirmationClassFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/DeceasedGoerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/FrailGoerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/IncomingMoneyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/MarriedGoerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/PersonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/PriestFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/ServiceScheduleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/SidesPersonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/StandardGoerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/StudentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/SundaySchoolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/TeacherFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/UsageOfMoneyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/YearEventFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/BaptismClassFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/BibleClassFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/BoatBoyFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/ChurchCongregationGoerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/ChurchFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/CollectionFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/ConfirmationClassFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/DeceasedGoerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/FrailGoerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/HallBookingFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/IncomingMoneyFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/MarriedGoerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/PersonFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/PledgeFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/PriestFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/ServiceScheduleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/SidesPersonFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/StandardGoerFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/StudentFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/SundaySchoolFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/TeacherFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/UsageOfMoneyFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/YearEventFactoryTest.java" afterDir="false" />
+    <list default="true" id="af8fcd08-8cbd-45af-bdb6-70e179d1a7c7" name="Default Changelist" comment="Update assignment 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/ChurchGoers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/ChurchCongregationGoer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/HallBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/HallBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Pledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/domain/Pledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/ChurchGoerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/ChurchCongregationGoerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/CollectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/CollectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/HallBookingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/HallBookingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/PledgeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/PledgeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/ChurchGoers.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/Collection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/HallBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/HallBooking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/Pledge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/domain/Pledge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/ChurchGoerFactory.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/CollectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/CollectionFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/HallBookingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/HallBookingFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/PledgeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/factory/PledgeFactory.class" afterDir="false" />
@@ -96,20 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StandardGoerFactoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/StandardGoerFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -227,7 +138,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -435,6 +346,14 @@
       <updated>1554892927997</updated>
       <workItem from="1554892931418" duration="2614000" />
     </task>
+    <task id="LOCAL-00001" summary="Update assignment 6">
+      <created>1555496401591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555496401591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -472,17 +391,25 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="2614000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32343236" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" visible="true" weight="0.32343236" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32343236" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
@@ -548,7 +475,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="Update assignment 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update assignment 6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/factory/SundaySchoolFactory.java">
