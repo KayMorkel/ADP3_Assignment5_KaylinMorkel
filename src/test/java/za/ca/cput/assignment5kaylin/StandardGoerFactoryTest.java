@@ -9,9 +9,9 @@ public class StandardGoerFactoryTest
 {
     @Test
     public void getChurch() {
-        boolean pledger = true;
+        String pledger = "yes";
         StandardGoer sg = StandardGoerFactory.getIsPledger(pledger);
-        Assert.assertEquals(pledger, sg.isPledger());
-        System.out.println(sg.isPledger());
+        Assert.assertEquals(pledger, sg.getPledger());
+        System.out.println(sg.getPledger());
     }
 }

@@ -2,7 +2,7 @@ package za.ca.cput.assignment5kaylin.domain;
 
 public class StandardGoer
 {
-    private boolean pledger;
+    private String pledger;
 
     private StandardGoer(){}
 
@@ -11,13 +11,13 @@ public class StandardGoer
         this.pledger = builder.pledger;
     }
 
-    public boolean isPledger() {return pledger;}
+    public String getPledger() {return pledger;}
 
     public static class Builder
     {
-        private boolean pledger;
+        private String pledger;
 
-        public Builder pledger(boolean pledger)
+        public Builder pledger(String pledger)
         {
             this.pledger = pledger;
             return this;
