@@ -71,6 +71,7 @@ public class LoginStatusRepositoryImplementation implements LoginStatusRepositor
             if (cla.getStatNum().equals(s))
             {
                 this.logStat.remove(cla);
+                break;
             }
         }
     }

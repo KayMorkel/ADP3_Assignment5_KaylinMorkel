@@ -71,6 +71,7 @@ public class LoginRepositoryImplementation implements LoginRepository
             if (cla.getUsername().equals(s))
             {
                 this.logRep.remove(cla);
+                break;
             }
         }
     }

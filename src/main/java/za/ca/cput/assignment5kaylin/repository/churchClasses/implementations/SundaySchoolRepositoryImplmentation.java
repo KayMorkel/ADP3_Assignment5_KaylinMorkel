@@ -71,6 +71,7 @@ public class SundaySchoolRepositoryImplmentation implements SundaySchoolReposito
             if (cla.getClassNo().equals(s))
             {
                 this.sun.remove(cla);
+                break;
             }
         }
     }

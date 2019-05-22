@@ -70,6 +70,7 @@ public class SidesPersonRepositoryImplementation implements SidesPersonRepositor
             if (cla.getSal().equals(s))
             {
                 this.sideP.remove(cla);
+                break;
             }
         }
     }

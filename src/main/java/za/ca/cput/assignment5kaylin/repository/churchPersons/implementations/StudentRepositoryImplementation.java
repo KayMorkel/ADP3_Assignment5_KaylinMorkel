@@ -70,6 +70,7 @@ public class StudentRepositoryImplementation implements StudentRepository
             if (cla.getStudId().equals(s))
             {
                 this.stud.remove(cla);
+                break;
             }
         }
     }

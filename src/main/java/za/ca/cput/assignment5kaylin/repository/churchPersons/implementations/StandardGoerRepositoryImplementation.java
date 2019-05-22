@@ -69,6 +69,7 @@ public class StandardGoerRepositoryImplementation implements StandardGoerReposit
             if (cla.getPledger().equals(s))
             {
                 this.stand.remove(cla);
+                break;
             }
         }
     }

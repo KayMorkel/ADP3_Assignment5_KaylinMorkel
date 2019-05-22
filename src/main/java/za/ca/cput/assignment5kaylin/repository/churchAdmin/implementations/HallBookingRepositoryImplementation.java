@@ -70,6 +70,7 @@ public class HallBookingRepositoryImplementation implements HallBookingRepositor
             if (cla.getHallBookId().equals(s))
             {
                 this.hall.remove(cla);
+                break;
             }
         }
     }

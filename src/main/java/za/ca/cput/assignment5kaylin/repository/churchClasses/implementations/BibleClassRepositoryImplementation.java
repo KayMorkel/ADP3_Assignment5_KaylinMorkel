@@ -70,6 +70,7 @@ public class BibleClassRepositoryImplementation implements BibleClassRepository
             if (cla.getClassNo().equals(s))
             {
                 this.bibClass.remove(cla);
+                break;
             }
         }
     }

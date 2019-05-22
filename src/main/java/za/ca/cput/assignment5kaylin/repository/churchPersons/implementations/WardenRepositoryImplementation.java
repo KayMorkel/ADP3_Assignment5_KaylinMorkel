@@ -70,6 +70,7 @@ public class WardenRepositoryImplementation implements WardenRepository
             if (cla.getWardenName().equals(s))
             {
                 this.ward.remove(cla);
+                break;
             }
         }
     }

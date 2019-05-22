@@ -70,6 +70,7 @@ public class MarriedGoerRepositoryImplementation implements MarriedGoerRepositor
             if (cla.getId().equals(s))
             {
                 this.mar.remove(cla);
+                break;
             }
         }
     }

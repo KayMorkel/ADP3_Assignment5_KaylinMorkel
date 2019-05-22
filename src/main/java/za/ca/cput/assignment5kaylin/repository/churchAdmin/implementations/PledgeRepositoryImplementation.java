@@ -71,6 +71,7 @@ public class PledgeRepositoryImplementation implements PledgeRepository
             if (cla.getPledgeNum().equals(s))
             {
                 this.ple.remove(cla);
+                break;
             }
         }
     }

@@ -71,6 +71,7 @@ public class DeceasedGoerRepositoryImplementation implements DeceasedGoerReposit
             if (cla.getDecNum().equals(s))
             {
                 this.decGo.remove(cla);
+                break;
             }
         }
 

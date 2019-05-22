@@ -66,6 +66,7 @@ public class CollectionRepositoryImplementation implements CollectionRepository
             if (cla.getCollectId().equals(s))
             {
                 this.coll.remove(cla);
+                break;
             }
         }
     }

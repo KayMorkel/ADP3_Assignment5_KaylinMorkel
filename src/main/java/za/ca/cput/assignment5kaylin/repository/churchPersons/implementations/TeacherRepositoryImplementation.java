@@ -69,6 +69,7 @@ public class TeacherRepositoryImplementation implements TeacherRepository
             if (cla.getId().equals(s))
             {
                 this.teac.remove(cla);
+                break;
             }
         }
     }

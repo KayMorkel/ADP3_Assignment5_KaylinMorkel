@@ -66,6 +66,7 @@ public class ConfirmationClassRepositoryImplementation  implements ConfirmationC
             if (cla.getClassNo().equals(s))
             {
                 this.conf.remove(cla);
+                break;
             }
         }
     }

@@ -71,6 +71,7 @@ public class UsageOfMoneyRepositoryImplementation implements UsageOfMoneyReposit
             if (cla.getId().equals(s))
             {
                 this.use.remove(cla);
+                break;
             }
         }
     }

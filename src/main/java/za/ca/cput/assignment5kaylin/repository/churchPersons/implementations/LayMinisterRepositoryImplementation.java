@@ -71,6 +71,7 @@ public class LayMinisterRepositoryImplementation implements LayMinisterRepositor
             if (cla.getId().equals(s))
             {
                 this.laym.remove(cla);
+                break;
             }
         }
     }

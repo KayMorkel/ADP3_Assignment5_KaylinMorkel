@@ -70,6 +70,7 @@ public class BaptismClassRepositoryImplementation implements BaptismClassReposit
             if (cla.getClassNo().equals(s))
             {
                 this.bapClass.remove(cla);
+                break;
             }
         }
     }

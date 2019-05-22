@@ -68,6 +68,7 @@ public class ChurchRepositoryImplementation  implements ChurchRepository
             if (cla.getChurchId().equals(s))
             {
                 this.chu.remove(cla);
+                break;
             }
         }
     }

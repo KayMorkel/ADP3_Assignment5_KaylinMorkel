@@ -71,6 +71,7 @@ public class YearEventRepositoryImplementation implements YearEventRepository
             if (cla.getEventNum().equals(s))
             {
                 this.year.remove(cla);
+                break;
             }
         }
     }

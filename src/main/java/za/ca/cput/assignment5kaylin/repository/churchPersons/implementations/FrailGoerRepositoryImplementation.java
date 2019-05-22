@@ -70,7 +70,7 @@ public class FrailGoerRepositoryImplementation implements FrailGoerRepository
             if (cla.getFrailNum().equals(s))
             {
                 this.frail.remove(cla);
-                //break;
+                break;
             }
         }
     }

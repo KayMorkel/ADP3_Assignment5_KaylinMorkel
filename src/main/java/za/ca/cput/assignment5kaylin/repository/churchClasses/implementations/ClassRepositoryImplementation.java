@@ -86,6 +86,7 @@ public class ClassRepositoryImplementation implements ClassRepository
             if (cla.getClassId().equals(s))
             {
                 this.classes.remove(cla);
+                break;
             }
         }
     }

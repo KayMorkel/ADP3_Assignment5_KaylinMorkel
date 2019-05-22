@@ -70,6 +70,7 @@ public class IncomingMoneyRepositoryImplementation implements IncomingMoneyRepos
             if (cla.getId().equals(s))
             {
                 this.income.remove(cla);
+                break;
             }
         }
     }

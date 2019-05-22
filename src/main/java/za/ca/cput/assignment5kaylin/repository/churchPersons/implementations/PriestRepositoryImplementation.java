@@ -70,7 +70,7 @@ public class PriestRepositoryImplementation implements PriestRepository
             if (cla.getSal().equals(s))
             {
                 this.prie.remove(cla);
-                //break;
+                break;
             }
         }
     }

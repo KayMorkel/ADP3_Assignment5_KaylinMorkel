@@ -71,6 +71,7 @@ public class PersonRepositoryImplementation implements PersonRepository
             if (cla.getpName().equals(s))
             {
                 this.per.remove(cla);
+                break;
             }
         }
     }

@@ -70,6 +70,7 @@ public class ServiceScheduleRepositoryImplementation implements ServiceScheduleR
             if (cla.getId().equals(s))
             {
                 this.serv.remove(cla);
+                break;
             }
         }
     }

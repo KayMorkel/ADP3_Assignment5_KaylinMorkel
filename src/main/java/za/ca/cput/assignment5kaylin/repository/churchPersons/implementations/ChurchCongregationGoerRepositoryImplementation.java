@@ -68,6 +68,7 @@ public class ChurchCongregationGoerRepositoryImplementation implements ChurchCon
             if (cla.getGoerId().equals(s))
             {
                 this.ccg.remove(cla);
+                break;
             }
         }
 

@@ -65,6 +65,7 @@ public class BoatBoyRepositoryImplementation implements BoatBoyRepository
             if (cla.getSal().equals(s))
             {
                 this.bb.remove(cla);
+                break;
             }
         }
     }
