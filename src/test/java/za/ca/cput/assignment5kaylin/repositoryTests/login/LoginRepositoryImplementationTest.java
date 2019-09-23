@@ -53,9 +53,9 @@ public class LoginRepositoryImplementationTest
         String s = "kelMer12";
         Login cl = this.classRepository.read(s);
 
-        assertEquals(null, cl);
+        assertEquals(s, cl.getUsername());
         //return classes.iterator().next();
-        System.out.println(cl);
+        System.out.println(cl.getUsername() + "\n"+cl.getPassword());
     }
 
     @Test

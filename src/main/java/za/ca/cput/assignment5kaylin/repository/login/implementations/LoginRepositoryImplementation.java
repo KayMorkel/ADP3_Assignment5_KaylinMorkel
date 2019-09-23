@@ -43,7 +43,7 @@ public class LoginRepositoryImplementation implements LoginRepository
     public Login read(String s) {
         Login got = null;
         for (Login cla: logRep){
-            if (cla.getUsername().equals(logRep)) {
+            if (cla.getUsername().equals(s)) {
                 System.out.println(cla.getUsername() + cla.getPassword());
                 got = LoginFactory.getLogin(s, cla.getPassword());
             }

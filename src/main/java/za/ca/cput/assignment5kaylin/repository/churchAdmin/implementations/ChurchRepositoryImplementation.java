@@ -50,13 +50,19 @@ public class ChurchRepositoryImplementation  implements ChurchRepository
 
     @Override
     public Church update(Church church) {
-        if (chu.contains(church))
-        {
-            chu.remove(church);
-//          church = new Church.Builder().churchId(church.getChurchId()).address(church.getAddress()).build();
-            church = ChurchFactory.getChurch(church.getChurchId(), church.getAddress());
-            this.chu.add(church);
-        }
+        //Church chur = null;
+
+       // for(Church churchy:chu)
+        //{
+       // coll.contains(collection)
+            if (chu.contains(church))
+            {
+                chu.remove(church);
+    //          church = new Church.Builder().churchId(church.getChurchId()).address(church.getAddress()).build();
+                church = ChurchFactory.getChurch(church.getChurchId(), church.getAddress());
+                this.chu.add(church);
+            }
+
         return church;
     }
 
@@ -74,7 +80,8 @@ public class ChurchRepositoryImplementation  implements ChurchRepository
     }
 
     @Override
-    public Set<Church> getAll() {
+    public Set<Church> getAll()
+    {
         return this.chu;
     }
 }

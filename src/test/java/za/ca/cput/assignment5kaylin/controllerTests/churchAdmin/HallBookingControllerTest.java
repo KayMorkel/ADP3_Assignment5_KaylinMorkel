@@ -7,10 +7,7 @@ import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.HallBooking;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.HallBookingFactory;
@@ -33,7 +30,9 @@ public class HallBookingControllerTest
     public void l_create()
     {
         HallBooking cl = HallBookingFactory.getBooking("1", "Birthday");
-        ResponseEntity<HallBooking> response = restTempl.postForEntity(url + "/create", cl, HallBooking.class);
+        ResponseEntity<HallBooking> response = restTempl.withBasicAuth("warden", "warden")
+                .postForEntity(url + "/create", cl, HallBooking.class);
+        assertEquals(HttpStatus.OK, response.getStatusCode());
         assertNotNull(response);
         assertNotNull(response.getBody());
         System.out.println(response.getBody().getHallBookId() + " " + response.getBody().getEventType());
@@ -42,7 +41,8 @@ public class HallBookingControllerTest
     @Test
     public void m_read()
     {
-        HallBooking c  = restTempl.getForObject(url + "/read/1", HallBooking.class);
+        HallBooking c  = restTempl.withBasicAuth("warden", "warden")
+                .getForObject(url + "/read/1", HallBooking.class);
         assertNotNull(c);
         System.out.println(c.getHallBookId() + " " + c.getEventType());
     }
@@ -89,7 +89,9 @@ public class HallBookingControllerTest
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<String> entity = new HttpEntity<>(null, headers);
         ResponseEntity respoEnt = restTempl.exchange(url + "/getAll", HttpMethod.GET, entity, String.class);
+       // assertEquals(HttpStatus.OK, respoEnt.getStatusCode());
         assertNotSame(null, respoEnt.getBody());
+
         //System.out.println(respoEnt);
     }
 }

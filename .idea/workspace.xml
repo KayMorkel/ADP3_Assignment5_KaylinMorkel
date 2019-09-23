@@ -2,35 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cf66c88-ce22-444d-a52f-5c09839329fa" name="Default" comment="Updates and Assignment 8 &amp; 9">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/factoryTests/churchPersons/PriestFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/factoryTests/churchPersons/PriestFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/HallBookingRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/HallBookingRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/PledgeRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/PledgeRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/UsageOfMoneyRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/UsageOfMoneyRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/YearEventRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/YearEventRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/ConfirmationClassRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/ConfirmationClassRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/SundaySchoolRepositoryImplmentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/SundaySchoolRepositoryImplmentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/DeceasedGoerRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/DeceasedGoerRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/FrailGoerRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/FrailGoerRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/factoryTests/churchPersons/PriestFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/factoryTests/churchPersons/PriestFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +120,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment5kaylin$ChurchServiceImplementationTest.ic" NAME="ChurchServiceImplementationTest Coverage Results" MODIFIED="1569164843549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>za.ca.cput.assignment5kaylin.serviceTests.churchAdmin.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ChurchController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/churchAdmin/ChurchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/security/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HallBookingControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,58 +213,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/StudentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/StandardGoerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/SidesPersonControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/PersonControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/MarriedGoerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/LayMinisterControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/PriestControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/DeceasedGoerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/FrailGoerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/BoatBoyControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/ChurchCongregationGoerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BaptismClassControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BibleClassControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/ClassControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/ConfirmationClassControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/SundaySchoolControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/CollectionControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/IncomingMoneyControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/UsageOfMoneyControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/YearEventControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/ServiceScheduleControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/HallBookingRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/PledgeRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/UsageOfMoneyRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchAdmin/YearEventRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/ConfirmationClassRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchClasses/SundaySchoolRepositoryImplmentationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/DeceasedGoerRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/churchPersons/FrailGoerRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/factoryTests/churchPersons/PriestFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BaptismClassControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/CollectionControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -152,19 +286,15 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,14 +307,152 @@
               <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="churchAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerTests" type="462c0819:PsiDirectoryNode" />
+              <item name="churchAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceTests" type="462c0819:PsiDirectoryNode" />
+              <item name="churchAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceTests" type="462c0819:PsiDirectoryNode" />
+              <item name="churchClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5kaylin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5kaylin" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceTests" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/ADP/Term 3/examPractice" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionControllerTest">
+  <component name="RunManager" selected="JUnit.HallBookingControllerTest.l_create">
     <configuration name="ChurchManny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.ChurchManny" />
       <module name="assignment5kaylin" />
@@ -213,7 +481,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ChurchControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HallBookingControllerTest.l_create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment5kaylin" />
       <extension name="coverage">
         <pattern>
@@ -224,9 +492,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin" />
-      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin.ChurchControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin.HallBookingControllerTest" />
+      <option name="METHOD_NAME" value="l_create" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -236,7 +504,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ChurchServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HallBookingServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment5kaylin" />
       <extension name="coverage">
         <pattern>
@@ -247,7 +515,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin" />
-      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin.ChurchServiceImplementationTest" />
+      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin.HallBookingServiceImplementationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -259,30 +527,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CollectionControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment5kaylin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin" />
-      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.controllerTests.churchAdmin.CollectionControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CollectionServiceImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HallBookingServiceImplementationTest.l_create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment5kaylin" />
       <extension name="coverage">
         <pattern>
@@ -293,9 +538,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin" />
-      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin.CollectionServiceImplementationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="za.ca.cput.assignment5kaylin.serviceTests.churchAdmin.HallBookingServiceImplementationTest" />
+      <option name="METHOD_NAME" value="l_create" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -312,6 +557,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="za.ca.cput.assignment5kaylin in assignment5kaylin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment5kaylin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ca.cput.assignment5kaylin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="za.ca.cput.assignment5kaylin" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -344,19 +612,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ChurchServiceImplementationTest" />
-      <item itemvalue="JUnit.ChurchControllerTest" />
+      <item itemvalue="JUnit.za.ca.cput.assignment5kaylin in assignment5kaylin" />
       <item itemvalue="Application.ChurchManny" />
-      <item itemvalue="JUnit.CollectionControllerTest" />
-      <item itemvalue="JUnit.CollectionServiceImplementationTest" />
+      <item itemvalue="JUnit.HallBookingControllerTest.l_create" />
+      <item itemvalue="JUnit.HallBookingServiceImplementationTest" />
+      <item itemvalue="JUnit.HallBookingServiceImplementationTest.l_create" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CollectionControllerTest" />
-        <item itemvalue="JUnit.CollectionServiceImplementationTest" />
-        <item itemvalue="JUnit.ChurchServiceImplementationTest" />
-        <item itemvalue="JUnit.ChurchControllerTest" />
+        <item itemvalue="JUnit.HallBookingControllerTest.l_create" />
         <item itemvalue="Application.ChurchManny" />
+        <item itemvalue="JUnit.HallBookingServiceImplementationTest.l_create" />
+        <item itemvalue="JUnit.HallBookingServiceImplementationTest" />
+        <item itemvalue="JUnit.za.ca.cput.assignment5kaylin in assignment5kaylin" />
       </list>
     </recent_temporary>
   </component>
@@ -374,60 +642,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsageOfMoneyControllerTest - 2019.05.22 at 04h 24m 27s.xml">
-      <configuration name="UsageOfMoneyControllerTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 00h 51m 51s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChurchServiceImplementationTest - 2019.05.22 at 10h 26m 45s.xml">
-      <configuration name="ChurchServiceImplementationTest" configurationId="JUnit" />
+    <history-entry file="HallBookingServiceImplementationTest_l_create - 2019.09.23 at 00h 53m 11s.xml">
+      <configuration name="HallBookingServiceImplementationTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChurchServiceImplementationTest - 2019.05.22 at 10h 28m 17s.xml">
-      <configuration name="ChurchServiceImplementationTest" configurationId="JUnit" />
+    <history-entry file="HallBookingServiceImplementationTest_l_create - 2019.09.23 at 00h 54m 34s.xml">
+      <configuration name="HallBookingServiceImplementationTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChurchControllerTest - 2019.05.22 at 10h 29m 44s.xml">
-      <configuration name="ChurchControllerTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 00h 59m 56s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChurchControllerTest - 2019.05.22 at 10h 30m 50s.xml">
-      <configuration name="ChurchControllerTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 01h 08m 04s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChurchServiceImplementationTest - 2019.05.22 at 10h 31m 44s.xml">
-      <configuration name="ChurchServiceImplementationTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 01h 13m 06s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionControllerTest - 2019.05.22 at 10h 32m 43s.xml">
-      <configuration name="CollectionControllerTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 01h 36m 16s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionServiceImplementationTest - 2019.05.22 at 10h 33m 37s.xml">
-      <configuration name="CollectionServiceImplementationTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 01h 38m 45s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionServiceImplementationTest - 2019.05.22 at 10h 34m 45s.xml">
-      <configuration name="CollectionServiceImplementationTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 01h 55m 11s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionControllerTest - 2019.05.22 at 10h 35m 22s.xml">
-      <configuration name="CollectionControllerTest" configurationId="JUnit" />
+    <history-entry file="HallBookingControllerTest_l_create - 2019.09.23 at 02h 01m 21s.xml">
+      <configuration name="HallBookingControllerTest.l_create" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49848714" weight="0.32673267" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49546143" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.35478547" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23233908" side_tool="true" visible="true" weight="0.3484087" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35478547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7676609" visible="true" weight="0.3484087" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33282906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.6687598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24960753" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7786499" weight="0.39698493" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
@@ -437,30 +706,30 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3250825" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35478547" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7730711" visible="true" weight="0.34323433" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24960753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3250825" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7786499" weight="0.39698493" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.22692889" side_tool="true" weight="0.34488449" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32838285" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.32673267" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4969743" weight="0.330033" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32967034" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -476,360 +745,372 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/DeceasedGoerControllerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="429">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/BoatBoyControllerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="429">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchPersons/ChurchCongregationGoerControllerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="67">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginStatusControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/service/login/implementation/LoginServiceImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BaptismClassControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BibleClassControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/ClassControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/ConfirmationClassControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/SundaySchoolControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="-289">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="-58">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/IncomingMoneyControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/LoginRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/PledgeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/ServiceScheduleControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/YearEventControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/UsageOfMoneyControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/index">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2828">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/ChurchControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/CollectionControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/HallBookingRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/IncomingMoneyRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/PledgeRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ServiceScheduleRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/UsageOfMoneyRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/YearEventRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BaptismClassRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/BibleClassRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ClassRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/SundaySchoolRepositoryImplmentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchClasses/implementations/ConfirmationClassRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/BoatBoyRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/ChurchCongregationGoerRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/DeceasedGoerRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/FrailGoerRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/LayMinisterRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/MarriedGoerRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PersonRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/PriestRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/SidesPersonRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StandardGoerRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/StudentRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/TeacherRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchPersons/implementations/WardenRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginStatusRepositoryImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="-290">
+          <caret line="11" column="81" lean-forward="true" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchClasses/BaptismClassControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/login/implementations/LoginRepositoryImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/login/LoginControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginStatusRepositoryImplemenationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/repositoryTests/login/LoginRepositoryImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/CollectionRepositoryImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/repository/churchAdmin/implementations/ChurchRepositoryImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ChurchServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/CollectionServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/IncomingMoneyServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/PledgeServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/ServiceScheduleServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/UsageOfMoneyServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/YearEventServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BaptismClassServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/BibleClassServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ClassServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/ConfirmationClassServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchClasses/SundaySchoolServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/BoatBoyServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/ChurchCongregationGoerServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/DeceasedGoerServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginStatusServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/login/LoginServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/WardenServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/TeacherServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StudentServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/StandardGoerServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/SidesPersonServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PriestServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/LayMinisterServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/FrailGoerServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/PersonServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchPersons/MarriedGoerServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/ChurchManny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/ChurchControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/CollectionControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="60" lean-forward="true" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/serviceTests/churchAdmin/HallBookingServiceImplementationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/churchAdmin/ChurchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/ca/cput/assignment5kaylin/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ca/cput/assignment5kaylin/controllerTests/churchAdmin/HallBookingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
         </state>
       </provider>
     </entry>

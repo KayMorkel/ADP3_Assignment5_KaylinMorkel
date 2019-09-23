@@ -54,7 +54,7 @@ public class LoginStatusRepositoryImplemenationTest
 
         assertEquals(s, cl.getStatNum());
         //return classes.iterator().next();
-        System.out.println(cl);
+        System.out.println(cl.getStatNum() + " " + cl.getStatus());
     }
 
     @Test

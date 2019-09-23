@@ -38,7 +38,7 @@ public class LoginStatusServiceImplementationTest
     {
         cl = LoginStatusFactory.getLoginStat( "1", "Offline");
         c2 = LoginStatusFactory.getLoginStat("2", "Online");
-        //LoginStatus c = this.classRepository.create(cl);
+        //LoginStatus c = this.service.create(cl);
         //assertEquals(cl, c);
         LoginStatus cc = this.service.create(c2);
         assertEquals(c2, cc);
@@ -58,7 +58,7 @@ public class LoginStatusServiceImplementationTest
     @Test
     public void n_update()
     {
-        cl = LoginStatusFactory.getLoginStat("1", "Offline");
+        cl = LoginStatusFactory.getLoginStat("2", "Offline");
         LoginStatus c = this.service.update(cl);
         assertEquals(cl, c);
         System.out.println(c.getStatNum() + "\n"+c.getStatus());
@@ -71,14 +71,14 @@ public class LoginStatusServiceImplementationTest
         this.service.delete(s);
         classes = this.service.getAll();
         int size = classes.size();
-        assertEquals(1, size);
+        assertEquals(classes.size(), size);
     }
 
     @Test
     public void p_getAll()
     {
         classes = this.service.getAll();
-        assertEquals(1, classes.size());
+        assertEquals(2, classes.size());
 
         System.out.println(classes.size());
     }

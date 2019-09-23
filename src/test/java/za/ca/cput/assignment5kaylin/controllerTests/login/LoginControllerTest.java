@@ -33,7 +33,7 @@ public class LoginControllerTest
     @Test
     public void l_create()
     {
-        Login cl = LoginFactory.getLogin("2", "5698");
+        Login cl = LoginFactory.getLogin("kelMer12", "joenma");
         ResponseEntity<Login> response = restTempl.postForEntity(url + "/create", cl, Login.class);
         assertNotNull(response);
         assertNotNull(response.getBody());
@@ -43,30 +43,32 @@ public class LoginControllerTest
     @Test
     public void m_read()
     {
-        Login c  = restTempl.getForObject(url + "/read/2", Login.class);
+        Login c  = restTempl.getForObject(url + "/read/kelMer12", Login.class);
+        //System.out.println(c.getUsername() + " " + c.getPassword());
         assertNotNull(c);
-        System.out.println(c.getUsername() + " " + c.getPassword());
+        //System.out.println(c.getUsername() + " " + c.getPassword());
     }
 
     @Test
     public void n_update()
     {
-        String id = "2";
+        String id = "kelMer12";
         Login c  = restTempl.getForObject(url + "/read/" + id, Login.class);
 
         restTempl.put(url + "/update/" + id, c);
         Login update = restTempl.getForObject(url + "/read/" + id, Login.class);
         assertNotNull(update);
         //System.out.println(c.getChurchId() + " " + c.getAddress());
-        System.out.println(update.getUsername() + " " + update.getPassword());
+        //System.out.println(update.getUsername() + " " + update.getPassword());
 
     }
 
     @Test
     public void o_delete()
     {
-        String id = "2";
+        String id = "kelMer12";
         Login c  = restTempl.getForObject(url + "/read/" + id, Login.class);
+        //System.out.println(c.getUsername() + c.getPassword());
         assertEquals(id, c.getUsername());
         System.out.println(c.getUsername() + c.getPassword());
         restTempl.delete(url+ "/delete/" + id);

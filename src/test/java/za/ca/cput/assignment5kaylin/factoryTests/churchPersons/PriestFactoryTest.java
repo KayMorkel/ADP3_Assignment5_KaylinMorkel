@@ -12,7 +12,7 @@ public class PriestFactoryTest
         String sal = "Pr789";
         String inductDate = "19 March 2019";
         Priest pr = PriestFactory.getPriest(sal, inductDate);
-        Assert.assertEquals(sal, pr.getInductDate());
+        Assert.assertEquals(inductDate, pr.getInductDate());
         System.out.println(pr.getInductDate());
     }
 }

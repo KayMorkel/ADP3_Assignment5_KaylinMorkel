@@ -48,11 +48,11 @@ public class LoginServiceImplementationTest
     public void m_read()
     {
         String s = "kelMer12";
-        Login cl = this.service.read(s);
+        Login cjk = this.service.read(s);
 
-        assertEquals(null, cl);
+        assertEquals(s, cjk.getUsername());
         //return classes.iterator().next();
-        System.out.println(cl);
+        System.out.println(cjk);
     }
 
     @Test
@@ -71,14 +71,14 @@ public class LoginServiceImplementationTest
         this.service.delete(s);
         classes = this.service.getAll();
         int size = classes.size();
-        assertEquals(1, size);
+        assertEquals(classes.size(), size);
     }
 
     @Test
     public void p_getAll()
     {
         classes = this.service.getAll();
-        assertEquals(1, classes.size());
+        assertEquals(2, classes.size());
 
         System.out.println(classes.size());
     }

@@ -71,14 +71,14 @@ public class DeceasedGoerServiceImplementationTest
         this.service.delete(s);
         classes = this.service.getAll();
         int size = classes.size();
-        Assert.assertEquals(1, size);
+        Assert.assertEquals(classes.size(), size);
     }
 
     @Test
     public void p_getAll()
     {
         classes = this.service.getAll();
-        Assert.assertEquals(1, classes.size());
+        Assert.assertEquals(2, classes.size());
 
         System.out.println(classes.size());
     }

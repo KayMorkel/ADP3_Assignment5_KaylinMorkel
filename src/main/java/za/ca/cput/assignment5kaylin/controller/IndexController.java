@@ -11,6 +11,6 @@ public class IndexController
     @ResponseBody
     public String getSomething()
     {
-        return "HEY HEY";
+        return "WELCOME TO CHURCHMANNY";
     }
 }
