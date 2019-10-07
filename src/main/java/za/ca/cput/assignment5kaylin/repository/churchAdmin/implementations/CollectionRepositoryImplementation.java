@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Collection;
@@ -8,8 +8,8 @@ import za.ca.cput.assignment5kaylin.repository.churchAdmin.CollectionRepository;
 import java.util.HashSet;
 import java.util.Set;
 
-@Repository
-public class CollectionRepositoryImplementation implements CollectionRepository
+@Repository*/
+/*public class CollectionRepositoryImplementation implements CollectionRepository
 {
     private static CollectionRepositoryImplementation classRepository = null;
     private Set<Collection> coll;
@@ -75,4 +75,4 @@ public class CollectionRepositoryImplementation implements CollectionRepository
     public Set<Collection> getAll() {
         return this.coll;
     }
-}
+}*/

@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.ServiceSchedule;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.ServiceScheduleService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -41,7 +42,7 @@ public class ServiceScheduleController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<ServiceSchedule> getAll() {
+    public List<ServiceSchedule> getAll() {
         return service.getAll();
     }
 }

@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.login;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class LoginStatus
 {
-    private String statNum, status;
+    @Id
+    private String statNum;
+    private String status;
 
     private LoginStatus(){}
 

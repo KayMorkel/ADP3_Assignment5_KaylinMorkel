@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.YearEvent;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.YearEventService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class YearEventController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<YearEvent> getAll() {
+    public List<YearEvent> getAll() {
         return service.getAll();
     }
 

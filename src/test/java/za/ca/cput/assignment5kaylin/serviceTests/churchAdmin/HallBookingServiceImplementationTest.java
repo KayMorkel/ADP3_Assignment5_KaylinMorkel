@@ -13,6 +13,7 @@ import za.ca.cput.assignment5kaylin.domain.churchAdmin.HallBooking;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.HallBookingFactory;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.implementation.HallBookingServiceImplementation;
 
+import java.util.List;
 import java.util.Set;
 
 @SpringBootTest
@@ -22,7 +23,7 @@ public class HallBookingServiceImplementationTest
 {
     @Autowired
     private HallBookingServiceImplementation service;
-    private Set<HallBooking> classes;
+    private List<HallBooking> classes;
     HallBooking cl;
     HallBooking c2;
 

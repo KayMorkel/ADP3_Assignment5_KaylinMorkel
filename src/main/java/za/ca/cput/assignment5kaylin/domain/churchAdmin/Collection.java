@@ -1,7 +1,12 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Collection
 {
+    @Id
     private String collectId;
     private double collectAmt;
 

@@ -1,8 +1,16 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class IncomingMoney
 {
-    private String id, from;
+    @Id
+    private String id;
+    @Column(name = "comingFrom")
+    private String from;
 
     private IncomingMoney(){}
 

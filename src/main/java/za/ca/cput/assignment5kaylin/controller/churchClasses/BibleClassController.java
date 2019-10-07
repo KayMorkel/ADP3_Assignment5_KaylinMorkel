@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.BibleClass;
 import za.ca.cput.assignment5kaylin.service.churchClasses.BibleClassService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class BibleClassController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<BibleClass> getAll() {
+    public List<BibleClass> getAll() {
         return service.getAll();
     }
 }

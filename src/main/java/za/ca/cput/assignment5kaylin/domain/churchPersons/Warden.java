@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Warden
 {
-    private String wardenName, wardenTelNumber;
+    @Id
+    private String wardenName;
+    private String wardenTelNumber;
 
     private Warden(){}
 

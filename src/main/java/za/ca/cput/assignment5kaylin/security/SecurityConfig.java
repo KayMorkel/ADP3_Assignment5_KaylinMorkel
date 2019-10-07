@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.httpBasic().and()
                 .authorizeRequests()
                 //.anyRequest().authenticated();
-                .antMatchers("**/create/**", "**/read/**")
+                .antMatchers("hallBooking/create/**", "hallBooking/read/**")
                 .hasRole("ADMIN")
                 .and().csrf().disable();
                 //.formLogin().disable();

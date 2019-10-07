@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.BaptismClass;
@@ -79,4 +79,4 @@ public class BaptismClassRepositoryImplementation implements BaptismClassReposit
     {
         return this.bapClass;
     }
-}
+}*/

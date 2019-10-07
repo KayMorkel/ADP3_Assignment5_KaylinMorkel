@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.login.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.login.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.login.LoginStatus;
@@ -75,4 +75,4 @@ public class LoginStatusRepositoryImplementation implements LoginStatusRepositor
             }
         }
     }
-}
+}*/

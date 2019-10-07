@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchClasses;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class ConfirmationClass
 {
-    private String classNo, classTime;
+    @Id
+    private String classNo;
+    private String classTime;
 
     private ConfirmationClass(){}
 

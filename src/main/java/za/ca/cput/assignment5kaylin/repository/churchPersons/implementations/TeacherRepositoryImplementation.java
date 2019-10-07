@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchPersons.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchPersons.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchPersons.Teacher;
@@ -73,4 +73,4 @@ public class TeacherRepositoryImplementation implements TeacherRepository
             }
         }
     }
-}
+}*/

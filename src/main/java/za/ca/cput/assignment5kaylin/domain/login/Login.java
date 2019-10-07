@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.login;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Login
 {
-    private String username, password;
+    @Id
+    private String username;
+    private String password;
 
     private Login(){}
 

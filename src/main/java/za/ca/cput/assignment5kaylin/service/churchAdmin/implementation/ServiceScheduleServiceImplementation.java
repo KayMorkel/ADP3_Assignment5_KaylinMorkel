@@ -4,53 +4,64 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.ServiceSchedule;
 import za.ca.cput.assignment5kaylin.repository.churchAdmin.ServiceScheduleRepository;
-import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ServiceScheduleRepositoryImplementation;
+//import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ServiceScheduleRepositoryImplementation;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.ServiceScheduleService;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
 public class ServiceScheduleServiceImplementation implements ServiceScheduleService
 {
     @Autowired
-    private ServiceScheduleRepositoryImplementation repo;
-
-    /*private static ServiceScheduleServiceImplementation service = null;
     private ServiceScheduleRepository repo;
+
+    private static ServiceScheduleServiceImplementation service = null;
+    //private ServiceScheduleRepository repo;
 
     private ServiceScheduleServiceImplementation()
     {
-        this.repo = ServiceScheduleRepositoryImplementation.getRepository();
+      //  this.repo = ServiceScheduleRepositoryImplementation.getRepository();
     }
 
     public static ServiceScheduleServiceImplementation getService()
     {
         if(service == null) service = new ServiceScheduleServiceImplementation();
         return service;
-    }*/
+    }
 
     @Override
-    public Set<ServiceSchedule> getAll() {
-        return this.repo.getAll();
+    public ServiceSchedule retrieveById(String id) {
+        List<ServiceSchedule> churches = getAll();
+        for(ServiceSchedule c: churches)
+        {
+            if (c.getId().equals(id)) return c;
+        }
+        return null;
+    }
+
+    @Override
+    public List<ServiceSchedule> getAll() {
+        return this.repo.findAll();
     }
 
     @Override
     public ServiceSchedule create(ServiceSchedule serviceSchedule) {
-        return this.repo.create(serviceSchedule);
+        return this.repo.save(serviceSchedule);
     }
 
     @Override
     public ServiceSchedule read(String s) {
-        return this.repo.read(s);
+        return this.repo.findById(s).orElse(null);
     }
 
     @Override
     public ServiceSchedule update(ServiceSchedule serviceSchedule) {
-        return this.repo.update(serviceSchedule);
+        return this.repo.save(serviceSchedule);
     }
 
     @Override
     public void delete(String s) {
-        this.repo.delete(s);
+        this.repo.deleteById(s);
     }
 }

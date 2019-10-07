@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Pledge
 {
-    private String pledgeNum, paymentType;
+    @Id
+    private String pledgeNum;
+    private String paymentType;
 
     private Pledge(){}
 

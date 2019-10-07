@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.SundaySchool;
 import za.ca.cput.assignment5kaylin.service.churchClasses.SundaySchoolService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class SundaySchoolController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<SundaySchool> getAll() {
+    public List<SundaySchool> getAll() {
         return service.getAll();
     }
 }

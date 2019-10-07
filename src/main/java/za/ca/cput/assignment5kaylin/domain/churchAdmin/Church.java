@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Church
 {
-    private String churchId, address;
+    @Id
+    private String churchId;
+    private String address;
 
     private Church(){}
 

@@ -12,9 +12,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Church;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.ChurchFactory;
 import za.ca.cput.assignment5kaylin.repository.churchAdmin.ChurchRepository;
-import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ChurchRepositoryImplementation;
+//import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ChurchRepositoryImplementation;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.implementation.ChurchServiceImplementation;
 
+import java.util.List;
 import java.util.Set;
 
 @SpringBootTest
@@ -24,7 +25,7 @@ public class ChurchServiceImplementationTest
 {
     @Autowired
     private ChurchServiceImplementation service;
-    private Set<Church> classes;
+    private List<Church> classes;
     Church cl;
     Church c2;
 

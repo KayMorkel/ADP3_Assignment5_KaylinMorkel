@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class LayMinister
 {
-    private String id, name;
+    @Id
+    private String id;
+    private String name;
 
     private LayMinister(){}
 

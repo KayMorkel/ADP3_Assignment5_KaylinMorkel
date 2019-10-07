@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class HallBooking
 {
-    private String hallBookId, eventType;
+    @Id
+    private String hallBookId;
+    private String eventType;
 
     private HallBooking(){}
 

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.ConfirmationClass;
 import za.ca.cput.assignment5kaylin.service.churchClasses.ConfirmationClassService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class ConfirmationClassController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<ConfirmationClass> getAll() {
+    public List<ConfirmationClass> getAll() {
         return service.getAll();
     }
 }

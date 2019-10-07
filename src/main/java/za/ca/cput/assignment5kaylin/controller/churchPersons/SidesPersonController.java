@@ -6,6 +6,7 @@ import za.ca.cput.assignment5kaylin.domain.churchPersons.SidesPerson;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.ChurchService;
 import za.ca.cput.assignment5kaylin.service.churchPersons.SidesPersonService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -41,7 +42,7 @@ public class SidesPersonController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<SidesPerson> getAll() {
+    public List<SidesPerson> getAll() {
         return service.getAll();
     }
 }

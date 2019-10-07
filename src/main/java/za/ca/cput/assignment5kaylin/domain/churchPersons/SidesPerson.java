@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class SidesPerson
 {
-    private String sal, payType;
+    @Id
+    private String sal;
+    private String payType;
 
     private SidesPerson(){}
 

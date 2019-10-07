@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.IncomingMoney;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.IncomingMoneyService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class IncomingMoneyController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<IncomingMoney> getAll() {
+    public List<IncomingMoney> getAll() {
         return service.getAll();
     }
 }

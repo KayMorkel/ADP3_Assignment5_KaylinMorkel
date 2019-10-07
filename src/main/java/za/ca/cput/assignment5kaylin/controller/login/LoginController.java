@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.login.Login;
 import za.ca.cput.assignment5kaylin.service.login.LoginService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -41,7 +42,7 @@ public class LoginController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<Login> getAll() {
+    public List<Login> getAll() {
         return service.getAll();
     }
 }

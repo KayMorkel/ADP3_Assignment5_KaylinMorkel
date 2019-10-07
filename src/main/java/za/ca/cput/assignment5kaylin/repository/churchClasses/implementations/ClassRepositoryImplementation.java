@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.Class;
@@ -48,7 +48,7 @@ public class ClassRepositoryImplementation implements ClassRepository
             System.out.println(it.next());
         }*/
         //Class cla = null;
-        Class got = null;
+       /* Class got = null;
         for (Class cla: classes){
             if (cla.getClassId().equals(classId)) {
                 System.out.println(cla.getClassId() + " "+ cla.getNumOfStudents());
@@ -81,7 +81,7 @@ public class ClassRepositoryImplementation implements ClassRepository
         {
             classes.remove(getClass());
         };*/
-        for (Class cla: classes)
+        /*for (Class cla: classes)
         {
             if (cla.getClassId().equals(s))
             {
@@ -96,4 +96,4 @@ public class ClassRepositoryImplementation implements ClassRepository
     {
         return this.classes;
     }
-}
+}*/

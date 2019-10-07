@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchPersons.BoatBoy;
 import za.ca.cput.assignment5kaylin.service.churchPersons.BoatBoyService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class BoatBoyController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<BoatBoy> getAll() {
+    public List<BoatBoy> getAll() {
         return service.getAll();
     }
 }

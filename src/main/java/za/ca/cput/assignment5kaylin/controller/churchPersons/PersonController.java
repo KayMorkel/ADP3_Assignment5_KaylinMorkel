@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchPersons.Person;
 import za.ca.cput.assignment5kaylin.service.churchPersons.PersonService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class PersonController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<Person> getAll() {
+    public List<Person> getAll() {
         return service.getAll();
     }
 }

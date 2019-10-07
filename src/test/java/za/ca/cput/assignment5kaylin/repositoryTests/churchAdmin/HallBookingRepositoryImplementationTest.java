@@ -12,8 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.HallBooking;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.HallBookingFactory;
 import za.ca.cput.assignment5kaylin.repository.churchAdmin.HallBookingRepository;
-import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.HallBookingRepositoryImplementation;
+//import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.HallBookingRepositoryImplementation;
 
+import java.util.List;
 import java.util.Set;
 
 @SpringBootTest
@@ -22,8 +23,8 @@ import java.util.Set;
 public class HallBookingRepositoryImplementationTest
 {
     @Autowired
-    private HallBookingRepositoryImplementation classRepository;
-    private Set<HallBooking> classes;
+    private HallBookingRepository classRepository;
+    private List<HallBooking> classes;
     HallBooking cl;
     HallBooking c2;
 
@@ -38,9 +39,9 @@ public class HallBookingRepositoryImplementationTest
     {
         cl = HallBookingFactory.getBooking("1", "Birthday");
         c2 = HallBookingFactory.getBooking("2", "Birthday");
-        HallBooking c = this.classRepository.create(cl);
+        HallBooking c = this.classRepository.save(cl);
         Assert.assertEquals(cl, c);
-        HallBooking cc = this.classRepository.create(c2);
+        HallBooking cc = this.classRepository.save(c2);
         Assert.assertEquals(c2, cc);
     }
 
@@ -48,7 +49,7 @@ public class HallBookingRepositoryImplementationTest
     public void m_read()
     {
         String s = "1";
-        HallBooking cl = this.classRepository.read(s);
+        HallBooking cl = this.classRepository.findById(s).orElse(null);
 
         Assert.assertEquals(s, cl.getHallBookId());
         //return classes.iterator().next();
@@ -59,7 +60,7 @@ public class HallBookingRepositoryImplementationTest
     public void n_update()
     {
         cl = HallBookingFactory.getBooking("1", "21st Party");
-        HallBooking c = this.classRepository.update(cl);
+        HallBooking c = this.classRepository.save(cl);
         Assert.assertEquals(cl, c);
         System.out.println(c.getHallBookId() + "\n"+c.getEventType());
     }
@@ -68,8 +69,8 @@ public class HallBookingRepositoryImplementationTest
     public void o_delete()
     {
         String s = "1";
-        this.classRepository.delete(s);
-        classes = this.classRepository.getAll();
+        this.classRepository.deleteById(s);
+        classes = this.classRepository.findAll();
         int size = classes.size();
         Assert.assertEquals(1, size);
     }
@@ -77,7 +78,7 @@ public class HallBookingRepositoryImplementationTest
     @Test
     public void p_getAll()
     {
-        classes = this.classRepository.getAll();
+        classes = this.classRepository.findAll();
         Assert.assertEquals(1, classes.size());
 
         System.out.println(classes.size());

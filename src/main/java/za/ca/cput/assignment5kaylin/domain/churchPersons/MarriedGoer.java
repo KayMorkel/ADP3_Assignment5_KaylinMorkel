@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class MarriedGoer
 {
-    private String id, yearMarried;
+    @Id
+    private String id;
+    private String yearMarried;
 
     private MarriedGoer(){}
 

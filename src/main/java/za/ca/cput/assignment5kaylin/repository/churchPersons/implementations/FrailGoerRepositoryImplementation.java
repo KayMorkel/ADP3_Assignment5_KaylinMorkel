@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchPersons.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchPersons.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchPersons.FrailGoer;
@@ -74,4 +74,4 @@ public class FrailGoerRepositoryImplementation implements FrailGoerRepository
             }
         }
     }
-}
+}*/

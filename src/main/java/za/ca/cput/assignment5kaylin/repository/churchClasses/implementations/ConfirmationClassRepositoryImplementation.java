@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchClasses.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.ConfirmationClass;
@@ -75,4 +75,4 @@ public class ConfirmationClassRepositoryImplementation  implements ConfirmationC
     public Set<ConfirmationClass> getAll() {
         return this.conf;
     }
-}
+}*/

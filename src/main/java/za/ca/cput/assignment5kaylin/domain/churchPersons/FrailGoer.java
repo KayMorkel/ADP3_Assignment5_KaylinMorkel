@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class FrailGoer
 {
-    private String frailNum, type;
+    @Id
+    private String frailNum;
+    private String type;
 
     private FrailGoer(){}
 

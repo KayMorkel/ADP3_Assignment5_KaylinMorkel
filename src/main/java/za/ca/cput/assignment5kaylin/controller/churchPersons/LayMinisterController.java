@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchPersons.LayMinister;
 import za.ca.cput.assignment5kaylin.service.churchPersons.LayMinisterService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class LayMinisterController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<LayMinister> getAll() {
+    public List<LayMinister> getAll() {
         return service.getAll();
     }
 }

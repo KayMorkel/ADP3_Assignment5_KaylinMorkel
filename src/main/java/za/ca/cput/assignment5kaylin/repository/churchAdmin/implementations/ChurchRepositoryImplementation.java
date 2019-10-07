@@ -1,6 +1,6 @@
-package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
 
-import org.springframework.stereotype.Repository;
+/*import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Church;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.ChurchFactory;
 import za.ca.cput.assignment5kaylin.repository.churchAdmin.ChurchRepository;
@@ -8,8 +8,8 @@ import za.ca.cput.assignment5kaylin.repository.churchAdmin.ChurchRepository;
 import java.util.HashSet;
 import java.util.Set;
 
-@Repository
-public class ChurchRepositoryImplementation  implements ChurchRepository
+@Repository*/
+/*public class ChurchRepositoryImplementation  implements ChurchRepository
 {
     private static ChurchRepositoryImplementation classRepository = null;
     private Set<Church> chu;
@@ -84,4 +84,4 @@ public class ChurchRepositoryImplementation  implements ChurchRepository
     {
         return this.chu;
     }
-}
+}*/

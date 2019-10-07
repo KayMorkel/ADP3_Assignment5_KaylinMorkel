@@ -1,7 +1,12 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class StandardGoer
 {
+    @Id
     private String pledger;
 
     private StandardGoer(){}

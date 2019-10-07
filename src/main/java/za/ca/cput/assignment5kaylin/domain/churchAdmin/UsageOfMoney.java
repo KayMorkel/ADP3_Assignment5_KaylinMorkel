@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class UsageOfMoney
 {
-    private String id, usedFor;
+    @Id
+    private String id;
+    private String usedFor;
 
     private UsageOfMoney(){}
 

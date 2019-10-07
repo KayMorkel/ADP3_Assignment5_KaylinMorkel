@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class DeceasedGoer
 {
-    private String decNum, yearDied;
+    @Id
+    private String decNum;
+    private String yearDied;
 
     private DeceasedGoer(){}
 

@@ -1,4 +1,4 @@
-package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
+/*package za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations;
 
 import org.springframework.stereotype.Repository;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.IncomingMoney;
@@ -74,4 +74,4 @@ public class IncomingMoneyRepositoryImplementation implements IncomingMoneyRepos
             }
         }
     }
-}
+}*/

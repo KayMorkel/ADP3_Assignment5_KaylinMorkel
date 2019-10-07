@@ -1,10 +1,13 @@
 package za.ca.cput.assignment5kaylin.controller.churchAdmin;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Church;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.ChurchService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +43,7 @@ public class ChurchController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<Church> getAll() {
+    public List<Church> getAll() {
         return service.getAll();
     }
 }

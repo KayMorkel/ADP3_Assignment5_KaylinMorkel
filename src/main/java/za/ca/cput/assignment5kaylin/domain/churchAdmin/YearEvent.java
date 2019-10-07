@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchAdmin;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class YearEvent
 {
-    private String eventNum, name;
+    @Id
+    private String eventNum;
+    private String name;
 
     private YearEvent(){}
 
