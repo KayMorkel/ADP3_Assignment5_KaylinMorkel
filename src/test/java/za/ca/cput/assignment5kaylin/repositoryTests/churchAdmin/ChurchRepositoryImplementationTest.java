@@ -41,9 +41,9 @@ public class ChurchRepositoryImplementationTest
 //        cl = new Church.Builder().churchId("Ang12").address("21 Adderley Road, 5698").build();
         c2 = ChurchFactory.getChurch("NewAp10", "22 Norm Road, 5784");
         Church c = this.classRepository.save(cl);
-        Assert.assertEquals(cl, c);
+        Assert.assertEquals(cl.getChurchId(), c.getChurchId());
         Church cc = this.classRepository.save(c2);
-        Assert.assertEquals(c2, cc);
+        Assert.assertEquals(c2.getChurchId(), cc.getChurchId());
     }
 
     @Test
@@ -63,7 +63,7 @@ public class ChurchRepositoryImplementationTest
         cl = ChurchFactory.getChurch("Ang12", "21 Adderley Road, 5798");
 //        cl = new Church.Builder().churchId("Ang12").address("21 Adderley Road, 5698").build();
         Church c = this.classRepository.save(cl);
-        Assert.assertEquals(cl, c);
+        Assert.assertEquals(cl.getChurchId(), c.getChurchId());
         System.out.println(c.getChurchId() + "\n"+c.getAddress());
     }
 

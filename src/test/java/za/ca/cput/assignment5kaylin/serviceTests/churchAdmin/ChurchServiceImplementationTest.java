@@ -42,7 +42,7 @@ public class ChurchServiceImplementationTest
     {
         cl = ChurchFactory.getChurch("Ang12", "21 Adderley Road, 5698");
         Church c = this.service.create(cl);
-        Assert.assertEquals(cl, c);
+        Assert.assertEquals(cl.getChurchId(), c.getChurchId());
         //Church cc = this.service.create(c2);
         //Assert.assertEquals(c2, cc);
     }
@@ -62,7 +62,7 @@ public class ChurchServiceImplementationTest
     {
         cl = ChurchFactory.getChurch("Ang12", "21 Adderley Road, 5798");
         Church c = this.service.update(cl);
-        Assert.assertEquals(cl, c);
+        Assert.assertEquals(cl.getChurchId(), c.getChurchId());
         System.out.println(c.getChurchId() + "\n"+c.getAddress());
     }
 
