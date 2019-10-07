@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchClasses.BaptismClass;
 import za.ca.cput.assignment5kaylin.service.churchClasses.BaptismClassService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class BaptismClassController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<BaptismClass> getAll() {
+    public List<BaptismClass> getAll() {
         return service.getAll();
     }
 }

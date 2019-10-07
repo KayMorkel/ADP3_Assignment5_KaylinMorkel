@@ -1,8 +1,14 @@
 package za.ca.cput.assignment5kaylin.domain.churchPersons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Student
 {
-    private String studId, studType;
+    @Id
+    private String studId;
+    private String studType;
 
     private Student(){}
 

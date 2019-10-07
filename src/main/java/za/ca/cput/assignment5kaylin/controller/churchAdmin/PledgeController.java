@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Pledge;
 import za.ca.cput.assignment5kaylin.service.churchAdmin.PledgeService;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
@@ -40,7 +41,7 @@ public class PledgeController
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<Pledge> getAll() {
+    public List<Pledge> getAll() {
         return service.getAll();
     }
 }

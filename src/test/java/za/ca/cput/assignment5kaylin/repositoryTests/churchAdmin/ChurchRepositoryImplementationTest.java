@@ -12,8 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import za.ca.cput.assignment5kaylin.domain.churchAdmin.Church;
 import za.ca.cput.assignment5kaylin.factory.churchAdmin.ChurchFactory;
 import za.ca.cput.assignment5kaylin.repository.churchAdmin.ChurchRepository;
-import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ChurchRepositoryImplementation;
+//import za.ca.cput.assignment5kaylin.repository.churchAdmin.implementations.ChurchRepositoryImplementation;
 
+import java.util.List;
 import java.util.Set;
 
 @SpringBootTest
@@ -22,8 +23,8 @@ import java.util.Set;
 public class ChurchRepositoryImplementationTest
 {
     @Autowired
-    private ChurchRepositoryImplementation classRepository;
-    private Set<Church> classes;
+    private ChurchRepository classRepository;
+    private List<Church> classes;
     Church cl;
     Church c2;
 
@@ -39,9 +40,9 @@ public class ChurchRepositoryImplementationTest
         cl = ChurchFactory.getChurch("Ang12", "21 Adderley Road, 5698");
 //        cl = new Church.Builder().churchId("Ang12").address("21 Adderley Road, 5698").build();
         c2 = ChurchFactory.getChurch("NewAp10", "22 Norm Road, 5784");
-        Church c = this.classRepository.create(cl);
+        Church c = this.classRepository.save(cl);
         Assert.assertEquals(cl, c);
-        Church cc = this.classRepository.create(c2);
+        Church cc = this.classRepository.save(c2);
         Assert.assertEquals(c2, cc);
     }
 
@@ -49,7 +50,7 @@ public class ChurchRepositoryImplementationTest
     public void m_read()
     {
         String s = "Ang12";
-        Church cl = this.classRepository.read(s);
+        Church cl = this.classRepository.findById(s).orElse(null);
 
         Assert.assertEquals(s, cl.getChurchId());
         //return classes.iterator().next();
@@ -61,7 +62,7 @@ public class ChurchRepositoryImplementationTest
     {
         cl = ChurchFactory.getChurch("Ang12", "21 Adderley Road, 5798");
 //        cl = new Church.Builder().churchId("Ang12").address("21 Adderley Road, 5698").build();
-        Church c = this.classRepository.update(cl);
+        Church c = this.classRepository.save(cl);
         Assert.assertEquals(cl, c);
         System.out.println(c.getChurchId() + "\n"+c.getAddress());
     }
@@ -70,8 +71,8 @@ public class ChurchRepositoryImplementationTest
     public void o_delete()
     {
         String s = "Ang12";
-        this.classRepository.delete(s);
-        classes = this.classRepository.getAll();
+        this.classRepository.deleteById(s);
+        classes = this.classRepository.findAll();
         int size = classes.size();
         Assert.assertEquals(1, size);
     }
@@ -79,7 +80,7 @@ public class ChurchRepositoryImplementationTest
     @Test
     public void p_getAll()
     {
-        classes = this.classRepository.getAll();
+        classes = this.classRepository.findAll();
         Assert.assertEquals(1, classes.size());
 
         System.out.println(classes.size());
